@@ -4,7 +4,8 @@ def translate_text(text, dest='ta'):
     return GoogleTranslator(source='auto', target=dest).translate(text)
 
 
-translator = translate_text()
+
+
 
 
 
